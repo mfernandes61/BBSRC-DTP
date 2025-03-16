@@ -39,3 +39,5 @@ Close dialog & switch to Terminal.
 git branch -M main
 git push -u origin main
 ```
+Further changes can be committed and the 'push' arrow used.    
+
