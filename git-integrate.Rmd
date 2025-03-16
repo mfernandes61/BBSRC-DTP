@@ -1,0 +1,29 @@
+---
+title: "Using-git-in-rstudio"
+author: "Mark Fernandes"
+date: "2025-03-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Setting up git credentials in Rstudio
+Either issue the following in the terminal tab (using the Username and e-mail that you used when creating your Github account):   
+```
+git config --global user.name "Pikachu"
+git config --global user.email "pika@pokemon.com"
+git config --global --list
+```
+
+Or alteratively, you can use the __usethis__ package by running this line once:   
+## install.packages("usethis")
+
+```
+library(usethis) 
+use_git_config(user.name = "Pikachu", user.email = "pika@pokemon.com")
+```
+
+Create a new Github Repo with a README.   
+Click on green button and under clone HTTPS use the icon to copy URL to clipboard.   
