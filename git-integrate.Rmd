@@ -27,3 +27,10 @@ use_git_config(user.name = "Pikachu", user.email = "pika@pokemon.com")
 
 Create a new Github Repo with a README.   
 Click on green button and under clone HTTPS use the icon to copy URL to clipboard.   
+
+Under project options chose git/SVN & change version control from None to git.   
+Rstudio will restart.   
+In Rstudio Terminal type:     \
+"git remote add origin <paste repo URL>".   
+
+Go to Rstudio Git button. In dialog tick on files yo wish to commit and put a message in commit box and click OK. A dialog should appear.   
