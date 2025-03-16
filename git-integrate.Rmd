@@ -34,3 +34,8 @@ In Rstudio Terminal type:     \
 "git remote add origin <paste repo URL>".   
 
 Go to Rstudio Git button. In dialog tick on files yo wish to commit and put a message in commit box and click OK. A dialog should appear.   
+Close dialog & switch to Terminal.   
+```
+git branch -M main
+git push -u origin main
+```
